@@ -1,5 +1,5 @@
 ﻿//Program główny
-using ConsoleApp1;
+using lab3;
 
 /*int[] liczby = new int[10];
 //Osoba[] arrayOsoby = new Osoba[5];
@@ -75,14 +75,22 @@ tabl_liczb.liczby[4] = 10;
 Console.WriteLine($"Suma = {tabl_liczb.Suma_tabl(tabl_liczb.liczby)}");
 Console.WriteLine($"Suma = {tabl_liczb.SumaPodziel2(tabl_liczb.liczby)}");*/
 
-Sumator tablica = new Sumator();
-double[] newTabl = tablica.Tablica(liczby_konstr: [1, 5, 3, 6, 5]);
+//Sumator tablica = new Sumator();
+//double[] newTabl = tablica.Tablica(liczby_konstr: [1, 5, 3, 6, 5]);
 /*Console.WriteLine($"Suma elementów = {tablica.Suma_tabl(newTabl)}");
 Console.WriteLine($"Suma elementów podzielnych przez 2 = {tablica.SumaPodziel2(newTabl)}");
 Console.WriteLine($"Ilość elementów w tablice = {tablica.IleElementów(newTabl)}");
 tablica.Wyswietl();*/
-Console.Write("Podaj mniejszy indeks: ");
+/*Console.Write("Podaj mniejszy indeks: ");
 int lowindex = Convert.ToInt32(Console.ReadLine());
 Console.Write("Podaj większy indeks: ");
 int highindex = Convert.ToInt32(Console.ReadLine());
-tablica.Zakres(lowindex, highindex);
+tablica.Zakres(lowindex, highindex);*/
+
+
+Data data = new Data();
+Console.WriteLine($"Bierząca data: {data.Teraz()}");
+data.przezPrzodSied();
+Console.WriteLine($"Data o jeden tydzień w przód: {data.Teraz()}");
+data.przezWtylSied();
+Console.WriteLine($"Data o jeden tydzień w tył: {data.Teraz()}");

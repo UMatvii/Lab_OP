@@ -8,5 +8,7 @@ namespace lab3
 {
     internal class Liczba
     {
+        double[] liczby_dzies = new double[5];
+
     }
 }

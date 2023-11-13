@@ -11,12 +11,12 @@ namespace Lab4
         string name;
         int age;
 
-        public string Name
+        string Name
         {
             get { return name; }
             set { }
         }
-        public int Age
+        int Age
         {
             get { return age; }
             set { }

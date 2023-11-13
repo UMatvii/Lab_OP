@@ -29,7 +29,7 @@ namespace Lab4
             this.wiek = wiek;
         }
 
-        public void View()
+        public virtual void View()
         {
             Console.WriteLine($"Imię: {firstName}\nNazwisko: {lastName}\nWiek: {wiek}");
         }

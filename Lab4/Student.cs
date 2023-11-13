@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab4
 {
-    internal class Student
+    internal class Student : Osoba
     {
         string nrAlbumu;
         string kierunek;

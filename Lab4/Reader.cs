@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab4
 {
-    internal class Reader
+    internal class Reader : Persona
     {
         public Book[] books;
 
@@ -23,6 +23,13 @@ namespace Lab4
             {
                 Console.WriteLine(item.Title);
             }
+        }
+
+        public override void View()
+        {
+            Console.WriteLine("Całe dane o osobie: ");
+            Console.WriteLine($"Imię: {FirstName}\nNazwisko: {LastName}\nWiek: {wiek}");
+            ViewBook();
         }
     }
 }

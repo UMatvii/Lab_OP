@@ -23,7 +23,7 @@ namespace Lab4
         public override void View_samochod()
         {
             base.View_samochod();
-            Console.WriteLine($"\tWaga samochodu: {waga}\n\tPojemność silnika: {pojemnosc_silnika}\n\tIlośćosób: {ilosc_osob}");
+            Console.WriteLine($"\tWaga samochodu: {waga}\n\tPojemność silnika: {pojemnosc_silnika}\n\tIlość osób: {ilosc_osob}");
         }
     }
 }

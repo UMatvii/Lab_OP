@@ -1,32 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace lab3
+﻿namespace Lab4
 {
     internal class Osoba
     {
-        // pola clasy
-        private string firstname;
-        private string lastname;
-        private int age;
-        private string city;
+        string name;
+        int age;
 
-        public Osoba() { }
-
-        public Osoba(string firstname, string lastname, int age, string city)
+        string Name
         {
-            this.firstname = firstname;
-            this.lastname = lastname;
-            this.age = age;
-            this.city = city;
+            get { return name; }
+            set { }
         }
-
-        public void View()
+        int Age
         {
-            Console.WriteLine($"Imię:\t{firstname}\tNazwisko:\t{lastname}\tWiek:\t{age}\tMiasto:\t{city}");
+            get { return age; }
+            set { }
+        }
+        public Osoba(string name, int age)
+        {
+            this.name = name;
+            this.age = age;
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fld+RZ9Ctmh7TifFyIBt63xbZnuILZ6q+XGmPGp149vpY9YK8LyiQEvntl3EpGwW6liZIDRKAvsfzB9H7FfPmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\lab7\\lab7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matve\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -34,3 +34,7 @@ samochodOsobowy1.View_samochod();
 SamochodOsobowy samochodOsobowy2 = new SamochodOsobowy(samochod2, 2, 0.9, 4);
 Console.WriteLine("Drugi samochód: ");
 samochodOsobowy2.View_samochod();
+
+List<Persona> persones  = new List<Persona>();
+persones.Add(new Reader("Jana", "Krul", 18, book));
+//persones.Add(new Reviewer());

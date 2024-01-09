@@ -1,0 +1,17 @@
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\bin\Debug\net7.0\Lab6.exe
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\bin\Debug\net7.0\Lab6.deps.json
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\bin\Debug\net7.0\Lab6.runtimeconfig.json
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\bin\Debug\net7.0\Lab6.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\bin\Debug\net7.0\Lab6.pdb
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.csproj.AssemblyReference.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.AssemblyInfoInputs.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.AssemblyInfo.cs
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.csproj.CopyComplete
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\refint\Lab6.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.pdb
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\Lab6.genruntimeconfig.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab6\obj\Debug\net7.0\ref\Lab6.dll

@@ -1,0 +1,14 @@
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\bin\Debug\net7.0\Lab5.exe
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\bin\Debug\net7.0\Lab5.deps.json
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\bin\Debug\net7.0\Lab5.runtimeconfig.json
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\bin\Debug\net7.0\Lab5.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\bin\Debug\net7.0\Lab5.pdb
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\Lab5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\Lab5.AssemblyInfoInputs.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\Lab5.AssemblyInfo.cs
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\Lab5.csproj.CoreCompileInputs.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\Lab5.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\refint\Lab5.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\Lab5.pdb
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\Lab5.genruntimeconfig.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab5\obj\Debug\net7.0\ref\Lab5.dll

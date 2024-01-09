@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\lab3.csproj": {}
+    "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\lab3.csproj": {
+    "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\lab3.csproj",
-        "projectName": "lab3",
-        "projectPath": "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\lab3.csproj",
+        "projectUniqueName": "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\Lab2.csproj",
+        "projectName": "Lab2",
+        "projectPath": "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\Lab2.csproj",
         "packagesPath": "C:\\Users\\matve\\.nuget\\packages\\",
         "outputPath": "C:\\Studiowanie\\Programowanie obiektowe\\Laboratorium\\Repozetorium\\Lab2\\obj\\",
         "projectStyle": "PackageReference",

@@ -27,3 +27,5 @@ C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Smart_Universit
 C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Smart_University\bin\Debug\System.Data.SqlClient.xml
 C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Smart_University\obj\Debug\LoginWindow.g.cs
 C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Smart_University\obj\Debug\LoginWindow.baml
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Smart_University\obj\Debug\Users\TeacherWindow.g.cs
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Smart_University\obj\Debug\Users\TeacherWindow.baml

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MaterialDesignThemes.Wpf;
 
 namespace Smart_University
 {
@@ -20,21 +21,23 @@ namespace Smart_University
     /// </summary>
     public partial class LoginWindow : Window
     {
+
         DBContext dbcntx = new DBContext();
+        
 
         public LoginWindow()
         {
             InitializeComponent();
-            if(dbcntx.DBConnect() == false)
-            {
-                test.Text = "NonConncted";
-                return;
-            }
+           
         }
+
+        public bool IsDarkTheme {  get; set; }
+        private readonly PaletteHelper palette = new PaletteHelper();
 
         private void Btn_SignIn_Clk(object sender, RoutedEventArgs e)
         {
             User user = new User(Login.Text, Password.Password);
+            
 
             if (user.CheckUser(dbcntx) == false)
             {
@@ -42,8 +45,30 @@ namespace Smart_University
             }
             else
             {
-                MessageBox.Show("Correct");
+                MainWindow mainWindow = new MainWindow();
+
+                
+                if (user.user_type == "s")
+                {
+                    mainWindow.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Teacher Window");
+                }
+                Hide();
             }
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
+        }
+
+        private void exit_button_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

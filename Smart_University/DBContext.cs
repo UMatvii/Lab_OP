@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Smart_University
 {
-    class DBContext
+    class DBContext  
     {
         public SqlConnection db;
 

@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("projekt_bd.mdf")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("projekt_bd_log.ldf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/left.png")]
 
 

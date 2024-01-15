@@ -23,5 +23,10 @@ namespace Smart_University
         {
             InitializeComponent();
         }
+
+        private void pod_godz_butt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

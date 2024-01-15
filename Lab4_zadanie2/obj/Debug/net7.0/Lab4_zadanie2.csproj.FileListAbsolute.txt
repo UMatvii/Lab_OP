@@ -1,0 +1,14 @@
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\Lab4_zadanie2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\Lab4_zadanie2.AssemblyInfoInputs.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\Lab4_zadanie2.AssemblyInfo.cs
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\Lab4_zadanie2.csproj.CoreCompileInputs.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\bin\Debug\net7.0\Lab4_zadanie2.exe
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\bin\Debug\net7.0\Lab4_zadanie2.deps.json
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\bin\Debug\net7.0\Lab4_zadanie2.runtimeconfig.json
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\bin\Debug\net7.0\Lab4_zadanie2.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\bin\Debug\net7.0\Lab4_zadanie2.pdb
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\Lab4_zadanie2.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\refint\Lab4_zadanie2.dll
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\Lab4_zadanie2.pdb
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\Lab4_zadanie2.genruntimeconfig.cache
+C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Lab4_zadanie2\obj\Debug\net7.0\ref\Lab4_zadanie2.dll

@@ -4,91 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Smart_University"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStyle="ThreeDBorderWindow">
-    <Window.Resources>
-        <Style x:Key="MaterialDesignFlatButton" TargetType="Button">
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Foreground" Value="Black"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="Padding" Value="10"/>
-            <Setter Property="Margin" Value="5"/>
-            <Setter Property="MinWidth" Value="120"/>
-            <Setter Property="Height" Value="40"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="8">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-    </Window.Resources>
-    <Grid>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Background="#EAEAEA">
-            <!-- Група 1 -->
-            <Border Background="#DDDDDD" Margin="0,0,0,20">
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <Button x:Name="pod_godz_butt" Content="Podział godzin" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                    <Button x:Name="oceny_butt" Content="Oceny" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                </StackPanel>
-            </Border>
-            <!-- Група 2 -->
-            <Border Background="#DDDDDD" Margin="0,0,0,20">
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <Button x:Name="ankiety_butt" Content="Ankiety" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                    <Button x:Name="kier_butt" Content="Kierunek" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                </StackPanel>
-            </Border>
-            <!-- Група 3 -->
-            <Border Background="#DDDDDD" Margin="0,0,0,20">
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <Button x:Name="grp_butt" Content="Grupy i moduły" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                    <Button x:Name="dane_stud_butt" Content="Dane studenta" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                </StackPanel>
-            </Border>
-            <!-- Група 4 -->
-            <Border Background="#DDDDDD" Margin="0,0,0,20">
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <Button x:Name="prow_butt" Content="Prowadzący" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                    <Button x:Name="platn_butt" Content="Płatności" Style="{StaticResource MaterialDesignFlatButton}" Width="150" Height="40">
-                        <Button.Effect>
-                            <DropShadowEffect Color="Black" Direction="0" ShadowDepth="5" Opacity="0.7"/>
-                        </Button.Effect>
-                    </Button>
-                </StackPanel>
-            </Border>
-        </StackPanel>
+        Title="MainWindow" Height="700" Width="1000" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid Width="650" Height="950">
+        <Border Width="600" Height="900" Background="#BF3131" VerticalAlignment="Center" CornerRadius="50">
+            <StackPanel>
+                <Image HorizontalAlignment="Left" Height="100" Source="images/uni.png" Margin="20"/>
+                <Line X1="0" X2="600" Y1="0" Y2="0" Stroke="Black" StrokeThickness="3"></Line>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>

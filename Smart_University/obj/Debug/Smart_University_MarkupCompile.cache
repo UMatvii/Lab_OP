@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Studiowanie\Programowanie obiektowe\Laboratorium\Repozetorium\Smart_University\App.xaml
-3-1294641386
+12-960996979
 
-9-1042161292
-17-1264408386
-LoginWindow.xaml;MainWindow.xaml;Users\TeacherWindow.xaml;
+18-1446328227
+17-1697353821
+LoginWindow.xaml;StudentsFunction\Course.xaml;StudentsFunction\DataStud.xaml;StudentsFunction\Documents.xaml;StudentsFunction\Grade.xaml;StudentsFunction\GroupsIMod.xaml;StudentsFunction\MainWindow.xaml;StudentsFunction\Schedule.xaml;StudentsFunction\Setting.xaml;StudentsFunction\Teachers_Stud.xaml;StudentsFunction\Transactions.xaml;TeacherFunction\TeacherWindow.xaml;
 
 False
 

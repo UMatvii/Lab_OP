@@ -12,6 +12,7 @@
         Background="{x:Null}"
         AllowsTransparency="True">
 
+
     <materialDesign:Card UniformCornerRadius="15" Background="{DynamicResource MaterialDesignPaper}" Margin="25"
        materialDesign:ElevationAssist.Elevation="Dp4">
         <materialDesign:DialogHost CloseOnClickAway="True" x:Name="DialogHost">
@@ -23,7 +24,7 @@
                 <StackPanel>
 
                     <Button x:Name="exit_button" Click="exit_button_Click"  Height="50" Background="White" BorderBrush="White" HorizontalAlignment="Right">
-                        <Image Source="images/logout.png" ></Image>
+                        <Image Source="images/logout.png"></Image>
                     </Button>
 
                     <Image Margin="0 60 0 5" Height="150" Source="/images/uni.png"/>

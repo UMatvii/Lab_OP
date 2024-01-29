@@ -1,0 +1,82 @@
+﻿<Window x:Class="Smart_University.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Smart_University"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+       Title="MainWindow"  WindowStyle="None" WindowState="Maximized">
+    <Grid Background="#820300">
+        <Border Width="1110" Height="810" Background="#BF3131" CornerRadius="50" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+                <Grid>
+                    <Image HorizontalAlignment="Left" Height="100" Source="../images/uni.png" Margin="20"/>
+                    <TextBlock HorizontalAlignment="Center" Margin="20" FontSize="60" FontWeight="Bold">Menu</TextBlock>
+                    <Button Click="Button_Setting_Click" BorderThickness="0" Background="#00000000" Height="140" Width="150" HorizontalAlignment="Right" Margin="0 0 200 0" Padding="0 0 0 0">
+                        <Image Height="100" Width="100" Source="../images/setting.png" HorizontalAlignment="Right"/>
+                    </Button>
+                    
+                    <Button Click="Button_LogOut" BorderThickness="0" Background="#00000000" Height="140" HorizontalAlignment="Right" Margin="20 0 0 0" Padding="0 0 0 0">
+                        <Image HorizontalAlignment="Right" Height="100" Source="../images/logout.png" Margin="20"/>
+                    </Button>
+                </Grid>
+                <Line X1="0" X2="1110" Y1="0" Y2="0" Stroke="Black" StrokeThickness="3"></Line>
+
+                <StackPanel Margin="0 90 0 30" Orientation="Horizontal" Width="auto" HorizontalAlignment="Center">
+                    <Button Content="Podział Godzin" Foreground="Black" FontSize="25" Click="Button_Pod_God_Click" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+
+                    <Button Content="Oceny" Foreground="Black" FontSize="25" Margin="120 0 120 0" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15" Click="Button_Grade_Click">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+
+                    <Button Content="Ankiety" Foreground="Black" FontSize="25" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15" Click="Button_Document_Click">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Margin="30" Orientation="Horizontal" Width="auto" HorizontalAlignment="Center">
+                    <Button Content="Tok studiów" Click="Button_Course_Click" Foreground="Black" FontSize="25" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+
+                    <Button Click="Button_Groups_Click" Content="Grupy i moduły" Foreground="Black" FontSize="25" Margin="120 0 120 0" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+
+                    <Button Click="Button_DataStud_Click" Content="Dane studenta" Foreground="Black" FontSize="25" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Margin="30" Orientation="Horizontal" Width="auto" HorizontalAlignment="Center">
+                    <Button Click="Button_TeacherStud_Click" Margin="0 0 120 0" Content="Prowadzący" Foreground="Black" FontSize="25" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+
+                    <Button Click="Button_Transaction_Click" Content="Płatności" Foreground="Black" FontSize="25" Height="110" Width="240" Background="#EAD196" HorizontalAlignment="Stretch" materialDesign:ButtonAssist.CornerRadius="15">
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" BlurRadius="5" Color="Black" Direction="45"/>
+                        </Button.Effect>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

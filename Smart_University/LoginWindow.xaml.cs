@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MaterialDesignThemes.Wpf;
+using Smart_University.Users;
 
 namespace Smart_University
 {
@@ -21,40 +23,32 @@ namespace Smart_University
     /// </summary>
     public partial class LoginWindow : Window
     {
-
-        DBContext dbcntx = new DBContext();
-        
+        DataBase db = new DataBase();
 
         public LoginWindow()
         {
             InitializeComponent();
-           
         }
-
-        public bool IsDarkTheme {  get; set; }
-        private readonly PaletteHelper palette = new PaletteHelper();
-
         private void Btn_SignIn_Clk(object sender, RoutedEventArgs e)
         {
-            User user = new User(Login.Text, Password.Password);
-            
 
-            if (user.CheckUser(dbcntx) == false)
+            User user = new User(Login.Text, Password.Password);
+
+            if (user.CheckUser(db.DBConnect()) == false)
             {
                 MessageBox.Show("Wrong password or login");
             }
             else
             {
-                MainWindow mainWindow = new MainWindow();
-
-                
                 if (user.user_type == "s")
                 {
+                    MainWindow mainWindow = new MainWindow(user.IDStudent, user, db);
                     mainWindow.Show();
                 }
-                else
+                else if (user.user_type == "t")
                 {
-                    MessageBox.Show("Teacher Window");
+                    //TeacherWindow teacherWindow = new TeacherWindow(user.IDTeacher);
+                    //teacherWindow.Show();
                 }
                 Hide();
             }

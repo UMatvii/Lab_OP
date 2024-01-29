@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 
 namespace Smart_University
 {
-    class User
+    public class User
     {
-        string login {get; set;}
+        public string login {get; set;}
         string password;
         public string user_type;
+        public int IDStudent;
+        public int IDTeacher;
 
 
         public User () { }
@@ -23,25 +25,33 @@ namespace Smart_University
             this.password = password;
         }
 
-        public Boolean CheckUser(DBContext dbconn)
+        public Boolean CheckUser(SqlConnection dbconn)
         {
             
             try
             {
-                
-               if(dbconn.DBConnect() == true)
-                {
-                    SqlCommand command = new SqlCommand("SELECT * FROM Logins WHERE login = @login and password = @password", dbconn.db);
+
+                if (dbconn != null)
+               {
+                    SqlCommand command = new SqlCommand("SELECT * FROM Logins WHERE login = @login and password = @password", dbconn);
                     command.Parameters.AddWithValue("@login", login);
                     command.Parameters.AddWithValue("@password", password);
 
                     using (SqlDataReader dt_user = command.ExecuteReader())
                     {
-                        if (dt_user.HasRows == true)
+                        if (dt_user.HasRows)
                         {
                             while (dt_user.Read())
                             {
                                 user_type = dt_user["typeUser"].ToString();
+                                if (user_type == "s")
+                                {
+                                    IDStudent = Convert.ToInt32(dt_user["IDStudent"]);
+                                }
+                                else if (user_type == "t")
+                                {
+                                    IDTeacher = Convert.ToInt32(dt_user["IDTeacher"]);
+                                }
                             }
                             dt_user.Close();
                             return true;
@@ -62,11 +72,7 @@ namespace Smart_University
                 Console.WriteLine($"Wyjątek bazy danych: {ex.Message}");
                 return false;
             }
-
-            /*finally 
-            { 
-                dbconn.DBClose();
-            }*/
         }
+
     }
 }

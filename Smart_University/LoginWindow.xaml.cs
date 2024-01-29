@@ -36,7 +36,7 @@ namespace Smart_University
 
             if (user.CheckUser(db.DBConnect()) == false)
             {
-                MessageBox.Show("Wrong password or login");
+                MessageBox.Show("Niepoprawne hasło lub login");
             }
             else
             {

@@ -38,13 +38,14 @@ namespace Smart_University.StudentsFunction
             if(New_Password.Password != Old_Password.Password && Old_Password.Password == Old_Password.Password)
             {
                 com.Parameters.AddWithValue("@password", New_Password.Password);
+
+                com.ExecuteNonQuery();
             }
             else
             {
-                MessageBox.Show("Nowe hasło takie same jak i stare");
+                MessageBox.Show("Nowe hasło takie same jak i stare lub niepoprawne stare hasło");
             }
 
-            com.ExecuteNonQuery();
 
             MainWindow mainWindow = new MainWindow(user.IDStudent, user, db);
             mainWindow.Show();

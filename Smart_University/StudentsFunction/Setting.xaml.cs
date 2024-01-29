@@ -39,6 +39,10 @@ namespace Smart_University.StudentsFunction
             {
                 com.Parameters.AddWithValue("@password", New_Password.Password);
             }
+            else
+            {
+                MessageBox.Show("Nowe hasło takie same jak i stare");
+            }
 
             com.ExecuteNonQuery();
 
